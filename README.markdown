@@ -10,4 +10,12 @@ Using ClassIE is pretty simple:
 - add the script to your pages
 - add .ie6, .ie7, .ie8, etc, to your CSS to define specific properties
 
+License
+-------
+
+This library is published under the MIT license (Expat version).
+
+Special thanks
+--------------
+
 Thanks to James Padolsey for his wonderful CC IE detection idea.
