@@ -1,14 +1,28 @@
 ClassIE
 =======
 
-ClassIE is an unobstrusive tiny library which automates IE browser detection in CSS by adding classes to the `html` markup as: `<html class="ie8">`.
+ClassIE is an unobstrusive tiny library which automates Internet Explorer browser detection.
 
-All Internet Explorer versions are supported from IE5 (which will be detected as IE6).
+JS
+--
 
-Using ClassIE is pretty simple:
+The `IE` variable is available to know under which version of Internet Explorer your script is loaded.
 
-- add the script to your pages
-- add .ie6, .ie7, .ie8, etc, to your CSS to define specific properties
+    if(IE<=8){
+	// some polyfills
+    }
+
+CSS
+---
+
+Internet Explorer version is also accessible with CSS classes since ClassIE adds the current IE browser version to the `html` markup as: `<html class="ie8">`.
+
+Then, using ClassIE with your stylesheets is pretty simple:
+
+    .ie6 #contents,
+    .ie7 #contents{
+	// some specific properties
+    }
 
 License
 -------
