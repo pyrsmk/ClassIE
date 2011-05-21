@@ -1,9 +1,6 @@
 (function(){
-    if(mode=document.documentMode)                  version=mode;   // IE>8
-    else if(document.all && window.XMLHttpRequest)  version=7;      // IE7
-    else if(document.all && !window.XMLHttpRequest) version=6;      // IE<7
-    doc=document.documentElement;
-    if(doc.className)   classes=doc.className.split(' ');
-    else                classes=[];
-    doc.className=classes.concat(['ie'+version]).join(' ');
+    var version=5,div=document.createElement('div');
+    do{div.innerHTML='<!--[if gt IE '+(++version)+']>1<![endif]-->'}
+    while(div.innerHTML);
+    document.documentElement.className+=' ie'+version;
 })();
