@@ -18,4 +18,4 @@ This library is published under the MIT license (Expat version).
 Special thanks
 --------------
 
-Thanks to James Padolsey for his wonderful CC IE detection idea.
+Thanks to James Padolsey for his wonderful CC IE detection idea: https://gist.github.com/527683
