@@ -1,8 +1,10 @@
 /*
-    ClassIE 20110522
-    Aurélien Delogu <dev@dreamysource.fr>
-    <https://github.com/pyrsmk/classie>
-    MIT license
+    ClassIE
+    
+    Version:    20110522
+    Author:     Aurélien Delogu <dev@dreamysource.fr>
+    URL:        <https://github.com/pyrsmk/classie>
+    License:    MIT
 */
 this.IE=(function(document){
     var version=3,div=document.createElement('div');
@@ -11,14 +13,14 @@ this.IE=(function(document){
     if(div.innerHTML==1){
         version=6;
     }
-    // IE loop, here's all the magic
+    // Find loop
     else{
         do{
             div.innerHTML='<!--[if gt IE '+(++version)+']>1<![endif]-->';
         }
         while(div.innerHTML==1);
     }
-    // IE
+    // IE version found
     if(version>=5){
         document.documentElement.className+=' ie'+version;
         return version;

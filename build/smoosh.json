@@ -1,7 +1,7 @@
 {
     "JAVASCRIPT":{
         "DIST_DIR":"./",
-        "classie":["./classie.js"]
+        "classie":["../classie.js"]
     },
     "JSHINT_OPTS":{
         "boss"          : true,
