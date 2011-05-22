@@ -11,14 +11,18 @@ this.IE=(function(document){
     if(div.innerHTML==1){
         version=6;
     }
+    // IE loop, here's all the magic
     else{
-        // IE loop, here's all the magic
         do{
             div.innerHTML='<!--[if gt IE '+(++version)+']>1<![endif]-->';
         }
-        while(div.innerHTML==1);    
-        document.documentElement.className+=' ie'+version;
+        while(div.innerHTML==1);
     }
-    // 4 = others, >=5 = IE
-    return version>=5?version:undefined;
+    // IE
+    if(version>=5){
+        document.documentElement.className+=' ie'+version;
+        return version;
+    }
+    // Other browsers
+    return undefined;
 })(this.document);

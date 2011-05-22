@@ -12,6 +12,8 @@ The `IE` variable is available to know under which version of Internet Explorer 
 	// some polyfills
     }
 
+For browsers other than IE, the `IE` variable will return `undefined`.
+
 CSS
 ---
 
