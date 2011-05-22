@@ -24,6 +24,11 @@ Then, using ClassIE with your stylesheets is pretty simple:
 	// some specific properties
     }
 
+Overall remarks
+---------------
+
+- IE5.5 is supported as IE6 version
+
 License
 -------
 
