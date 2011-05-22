@@ -1,3 +1,4 @@
 # npm install smoosh -g
 smoosh:
-	smoosh make smoosh.json
+	smoosh -r smoosh.json
+	uglifyjs -nc classie.js > classie.min.js
