@@ -1,5 +1,5 @@
-ClassIE
-=======
+ClassIE 0.1.5
+=============
 
 Following a H5BP's commit discussion (https://github.com/paulirish/html5-boilerplate/commit/e5e057e53815ed55f4ecfaef3057bf2940c7c0b2), I've decided to write an unobstrusive tiny library to automatically detect Internet Explorer version and bring us a sure way to use polyfills and IE CSS fixes.
 
@@ -29,7 +29,8 @@ Then, using ClassIE with your stylesheets is pretty simple:
 Overall remarks
 ---------------
 
-- IE5.5 is supported as IE6 version
+- IE5.5 is supported as IE6 version since they're quite the same
+- Others than IE will not parse ClassIE
 
 License
 -------
