@@ -29,6 +29,7 @@ Then, using ClassIE with your stylesheets is pretty simple:
 Overall remarks
 ---------------
 
+- Please don't use the non minified version as it's the development version: the build step still adds some more code
 - IE5.5 is supported as IE6 version since they're quite the same
 - Others than IE will not parse ClassIE
 

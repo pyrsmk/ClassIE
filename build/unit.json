@@ -5,7 +5,8 @@
     "JSHINT_OPTS":{
         "boss"          : true,
         "curly"         : true,
+        "eqnull"        : true,
         "newcap"        : true,
-        "indent"        : 4     
+        "indent"        : 4
     }
 }
