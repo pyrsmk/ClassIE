@@ -1,7 +1,7 @@
 sink('ClassIE',function(test,ok,before,after){
     
     var expected=prompt("What IE version should I expect? (please let empty for other browsers)","");
-    if(expected==''){
+    if(expected===''){
         expected=undefined;
     }
     

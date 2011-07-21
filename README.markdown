@@ -1,7 +1,15 @@
-ClassIE 0.1.6
+ClassIE 0.2.0
 =============
 
 Following a H5BP's commit discussion (https://github.com/paulirish/html5-boilerplate/commit/e5e057e53815ed55f4ecfaef3057bf2940c7c0b2), I've decided to write an unobstrusive tiny library to automatically detect Internet Explorer version and bring us a sure way to use polyfills and IE CSS fixes.
+
+Overall remarks
+---------------
+
+- Please don't use the non minified version as it's the development version: the build step still adds some more code
+- IE5.5 is supported as IE6 version since they're quite the same
+- Others than IE will not parse ClassIE
+- IE10 and ulterior don't support conditional comments anymore (http://blogs.msdn.com/b/ie/archive/2011/07/06/html5-parsing-in-ie10.aspx), then they will be all recognized as IE10 by ClassIE
 
 JS
 --
@@ -25,13 +33,6 @@ Then, using ClassIE with your stylesheets is pretty simple:
     .ie7 #contents{
 	// some specific properties
     }
-
-Overall remarks
----------------
-
-- Please don't use the non minified version as it's the development version: the build step still adds some more code
-- IE5.5 is supported as IE6 version since they're quite the same
-- Others than IE will not parse ClassIE
 
 License
 -------
