@@ -1,5 +1,7 @@
 # npm install smoosh -g
 smoosh:
-	smoosh -r classie.json
-	echo "var IE=undefined;/*@cc_on `uglifyjs -nc ../classie.js` @*/" > ../classie.min.js
-	smoosh -r unit.json
+	smoosh run project.json
+	uglifyjs -nc ../src/classie.js > tmp
+	cat ../src/header.js tmp ../src/footer.js  > ../classie.min.js
+	rm tmp
+	smoosh run unit.json

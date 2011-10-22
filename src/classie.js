@@ -1,17 +1,18 @@
 /*
     ClassIE
-    
+
     Version:    0.2.0
-    Author:     Aurélien Delogu <dev@dreamysource.fr>
-    URL:        <https://github.com/pyrsmk/classie>
+    Author:     Aurélien Delogu (dev@dreamysource.fr)
+    URL:        https://github.com/pyrsmk/ClassIE
     License:    MIT
 */
+
 IE=(function(document){
     var div=document.createElement('div'),
-    is=function(version){
-        div.innerHTML='<!--[if IE '+version+']>1<![endif]-->';
-        return div.innerHTML==1;
-    };
+        is=function(version){
+            div.innerHTML='<!--[if IE '+version+']>1<![endif]-->';
+            return div.innerHTML==1;
+        };
     // Consider IE5.5 as IE6
     version=6;
     if(!is('5.5000')){
