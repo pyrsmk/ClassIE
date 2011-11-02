@@ -1,4 +1,4 @@
-ClassIE 0.2.0
+ClassIE 0.2.1
 =============
 
 Following a H5BP's commit discussion (https://github.com/paulirish/html5-boilerplate/commit/e5e057e53815ed55f4ecfaef3057bf2940c7c0b2), I've decided to write an unobstrusive tiny library to automatically detect Internet Explorer version and bring us a sure way to use polyfills and IE CSS fixes.
@@ -17,7 +17,7 @@ JS
 The `IE` variable is available to know under which version of Internet Explorer your script is loaded.
 
     if(IE<=8){
-	// some polyfills
+        // some polyfills
     }
 
 For browsers other than IE, the `IE` variable will return `undefined`.
@@ -31,13 +31,13 @@ Then, using ClassIE with your stylesheets is pretty simple:
 
     .ie6 #contents,
     .ie7 #contents{
-	// some specific properties
+        // some specific properties
     }
 
 License
 -------
 
-This library is published under the MIT license (Expat version).
+This library is published under the MIT license.
 
 Special thanks
 --------------

@@ -1,1 +1,1 @@
-var IE=undefined;/*@cc_on
+window.IE=undefined /*@cc_on 
