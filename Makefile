@@ -13,6 +13,6 @@ minify:
 	@cat src/header.js tmp src/footer.js  > `${NAME}`-`${VERSION}`.min.js
 	@rm tmp
 
-install:
+instdeps:
 	@npm install jshint -g
 	@npm install uglify-js -g
