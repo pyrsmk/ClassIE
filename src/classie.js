@@ -1,7 +1,7 @@
 /*
     ClassIE
 
-    Version     : 0.2.2
+    Version     : 0.2.3
     Author      : Aurélien Delogu (dev@dreamysource.fr)
     Homepage    : https://github.com/pyrsmk/ClassIE
     License     : MIT
