@@ -1,5 +1,5 @@
 OLD		= ls -l | grep .js | sed -r 's/.+\s(\S+)/\1/'
-NAME	= ls src | sed -r 's/header\.js|footer\.js|ender\.js|package\.json|\s+//' | sed -nr 's/(.+)\.js/\1/p'
+NAME	= ls src | sed -r 's/header\.js|footer\.js|\s+//' | sed -nr 's/(.+)\.js/\1/p'
 VERSION	= grep -m 1 Version src/\`${NAME}\`.js | sed -r 's/.*:\s*(.+)/\1/'
 
 all: lint minify
