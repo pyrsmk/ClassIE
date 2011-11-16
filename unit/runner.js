@@ -2,7 +2,7 @@ sink('ClassIE',function(test,ok,before,after){
     
     var expected=prompt("What IE version should I expect? (please let empty for other browsers)","");
     if(expected===''){
-        expected=undefined;
+        expected=-1;
     }
     
     test('Browser version',2,function(){
@@ -12,7 +12,7 @@ sink('ClassIE',function(test,ok,before,after){
             classes='';
         }
         var found=classes.match(/\bie(\d+(\.5)?)\b/);
-        ok((found?found[1]:undefined)==expected,"same CSS version");
+        ok((found?found[1]:-1)==expected,"same CSS version");
     });
     
 });

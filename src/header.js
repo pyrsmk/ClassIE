@@ -1,1 +1,1 @@
-/*https://github.com/pyrsmk/ClassIE*/window.IE=undefined;/*@cc_on 
+/*https://github.com/pyrsmk/ClassIE*/this.IE=-1;/*@cc_on 
