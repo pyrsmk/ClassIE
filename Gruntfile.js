@@ -10,6 +10,7 @@ module.exports = function(grunt) {
 		},
 		// Lint
 		jshint: {
+			library: ['src/ClassIE.js'],
 			options: {
 				'browser'	: true,
 				'predef'	: ['define', 'module', 'ActiveXObject', 'Document', 'console', 'log'],
