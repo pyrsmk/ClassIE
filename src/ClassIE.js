@@ -1,12 +1,3 @@
-/*
-    ClassIE
-
-    Version     : 0.3.0
-    Author      : Aurélien Delogu (dev@dreamysource.fr)
-    Homepage    : https://github.com/pyrsmk/ClassIE
-    License     : MIT
-*/
-
 (function(doc){
     var div=doc.createElement('div'),
         is=function(version){

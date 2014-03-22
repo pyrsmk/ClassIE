@@ -1,0 +1,21 @@
+{
+  "name": "ClassIE",
+  "version": "0.3.0",
+  "description": "Internet Explorer detection for JS and CSS sides",
+  "main": "src/ClassIE.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pyrsmk/ClassIE.git"
+  },
+  "keywords": [
+    "internet explorer",
+    "version",
+    "detection"
+  ],
+  "authors": ["Aurélien Delogu"],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pyrsmk/ClassIE/issues"
+  },
+  "homepage": "http://dreamysource.fr/product/classie"
+}
