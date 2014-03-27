@@ -38,12 +38,12 @@ Then, using ClassIE with your stylesheets is pretty simple:
 }
 ```
 
-License
--------
-
-This library is published under the MIT license.
-
 Special thanks
 --------------
 
 Thanks to James Padolsey for his wonderful CC IE detection idea: https://gist.github.com/527683
+
+License
+-------
+
+This library is published under the [MIT license](http://dreamysource.mit-license.org).
