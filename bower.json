@@ -1,6 +1,5 @@
 {
   "name": "ClassIE",
-  "version": "0.3.0",
   "description": "Internet Explorer detection for JS and CSS sides",
   "main": "src/ClassIE.js",
   "repository": {

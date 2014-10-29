@@ -5,8 +5,7 @@ module.exports = function(grunt) {
 		bower: grunt.file.readJSON('bower.json'),
 		// Remove obsolete files
 		clean: {
-			old: ['*.min.js'],
-			work: ['ClassIE.min.js']
+			old: ['*.min.js']
 		},
 		// Lint
 		jshint: {
@@ -37,7 +36,7 @@ module.exports = function(grunt) {
 		concat: {
 			library: {
 				src: ['src/header.js', 'ClassIE.min.js', 'src/footer.js'],
-				dest: 'ClassIE-<%= bower.version %>.min.js'
+				dest: 'ClassIE.min.js'
 			}
 		},
 	});
@@ -49,6 +48,6 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-concat');
 
 	// Define tasks
-	grunt.registerTask('default', ['clean:old', 'jshint', 'uglify', 'concat', 'clean:work']);
+	grunt.registerTask('default', ['clean:old', 'jshint', 'uglify', 'concat']);
 
 };
