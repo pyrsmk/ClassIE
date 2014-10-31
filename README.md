@@ -6,10 +6,18 @@ Following a H5BP's commit discussion (https://github.com/paulirish/html5-boilerp
 Overall remarks
 ---------------
 
-- Please don't use the non minified version as it's the development version: the build step still adds some more code
 - IE5.5 is supported as IE6 version since they're quite the same
-- Others than IE will not parse ClassIE
-- IE10 and ulterior don't support conditional comments anymore (http://blogs.msdn.com/b/ie/archive/2011/07/06/html5-parsing-in-ie10.aspx), then they will be all recognized as IE10 by ClassIE
+- IE10 and ulterior don't support conditional comments anymore (http://blogs.msdn.com/b/ie/archive/2011/07/06/html5-parsing-in-ie10.aspx), they will be all seen as IE10 by ClassIE
+
+Install
+-------
+
+You can pick the minified library or install it with :
+
+```
+bower install pyrsmk-classie
+npm install pyrsmk-classie --save-dev
+```
 
 JS
 --

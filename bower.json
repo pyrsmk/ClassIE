@@ -1,13 +1,14 @@
 {
   "name": "ClassIE",
-  "description": "Internet Explorer detection for JS and CSS sides",
+  "description": "Internet Explorer version detector",
   "main": "src/ClassIE.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/pyrsmk/ClassIE.git"
   },
   "keywords": [
-    "internet explorer",
+    "internet",
+    "explorer",
     "version",
     "detection"
   ],
@@ -16,5 +17,6 @@
   "bugs": {
     "url": "https://github.com/pyrsmk/ClassIE/issues"
   },
-  "homepage": "http://dreamysource.fr/product/classie"
+  "homepage": "http://dreamysource.fr/product/classie",
+  "ignore": [".git"]
 }
