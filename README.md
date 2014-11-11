@@ -7,7 +7,7 @@ Overall remarks
 ---------------
 
 - IE5.5 is supported as IE6 version since they're quite the same
-- IE10 and ulterior don't support conditional comments anymore (http://blogs.msdn.com/b/ie/archive/2011/07/06/html5-parsing-in-ie10.aspx), they will be all seen as IE10 by ClassIE
+- IE10 and ulterior don't support conditional comments anymore (http://blogs.msdn.com/b/ie/archive/2011/07/06/html5-parsing-in-ie10.aspx), it will be seen as a regular browser by ClassIE
 
 Install
 -------
@@ -31,7 +31,7 @@ if(IE<=8){
 }
 ```
 
-For browsers other than IE, `IE` variable will return `-1`.
+For browsers other than IE or ulterior to 9, `IE` variable will return `-1`.
 
 CSS
 ---
