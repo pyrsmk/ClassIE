@@ -1,10 +1,3 @@
-/*
-    ClassIE, Internet Explorer detection for JS and CSS sides
-
-    Author
-        Aurélien Delogu (dev@dreamysource.fr)
-*/
-
 (function(doc){
     var div=doc.createElement('div'),
         is=function(version){
