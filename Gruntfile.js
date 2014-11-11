@@ -33,6 +33,9 @@ module.exports = function(grunt) {
 		},
 		// Minify
 		uglify: {
+			options: {
+				preserveComments: 'some'
+			},
 			library: {
 				files: {
 					'ClassIE.min.js': ['src/ClassIE.js']
@@ -65,6 +68,9 @@ module.exports = function(grunt) {
 			},
 			npm: {
 				command: 'npm publish'
+			},
+			jam: {
+				command: 'jam publish'
 			}
 		}
 	});

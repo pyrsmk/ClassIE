@@ -15,6 +15,7 @@ Install
 You can pick the minified library or install it with :
 
 ```
+jam install pyrsmk-classie
 bower install pyrsmk-classie
 npm install pyrsmk-classie --save-dev
 ```
