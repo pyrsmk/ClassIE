@@ -18,5 +18,13 @@
     "url": "https://github.com/pyrsmk/ClassIE/issues"
   },
   "homepage": "http://dreamysource.fr/product/classie",
-  "ignore": [".git"]
+  "ignore": [
+    ".git/",
+    ".gitignore",
+    "nodes_modules/",
+    "src/",
+    "tests/",
+    "Gruntfile.js",
+    "package.json"
+  ]
 }
