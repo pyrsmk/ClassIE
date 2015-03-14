@@ -1,13 +1,13 @@
 {
   "name": "pyrsmk-classie",
   "description": "Internet Explorer version detector",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "author": "Aurélien Delogu <pyrsmk@dreamysource.fr> (http://dreamysource.fr)",
   "repository": {
     "type": "git",
     "url": "https://github.com/pyrsmk/ClassIE.git"
   },
-  "main": "src/ClassIE.js",
+  "main": "ClassIE.min.js",
   "keywords": [
     "internet",
     "explorer",

@@ -1,7 +1,7 @@
 {
   "name": "ClassIE",
   "description": "Internet Explorer version detector",
-  "main": "src/ClassIE.js",
+  "main": "ClassIE.min.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/pyrsmk/ClassIE.git"
